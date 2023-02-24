@@ -1,0 +1,25 @@
+To download three.js, go to threejs.org and download
+Inside build folder is the js script
+
+4 elements needed to get started with a scene
+a scene, objects, a camera and a renderer.
+
+objects:
+primitive geometries    cube silider
+imported models         create own models
+particles
+lights
+etc
+
+a Mesh is a combination of a geometry and material.
+
+const is better for memory management
+
+a camera has to be added to see the scene.
+PerspectiveCamera has parameters for fov and aspect ratio
+aspect ratio could be the full viewport?
+
+a renderer is making a render, from the camera's view of the scene. This will be drawn on a canvas.
+in the course, a webGL renderer is used.
+
+position of the camera is also an object. has x y and z properties. increase z access makes us go backwards

@@ -1,0 +1,27 @@
+transform objects have 4 properties
+position, scale, rotation, quaternion
+
+what is a quaternion, its a rotation... somewhat
+all 3dObject inherited classes contain these properties
+
+these properties will be compiled into a matrices
+
+for position:
+x is on x axis, y is on y axis, z is on z axis(back and forward) and
+
+position is a vector3
+normalize() reduce vector until length is 1
+mesh.position.set(0.7, -0.6, 3).
+
+
+axes helper
+
+
+scale is also a vector3
+scaling mesh/ objects
+
+rotating a mesh/object can be done with rotation/quaternion..
+updating one will update other aswell.
+also has x y z axis
+be careful with rotation because of order of rotation
+you'd have to reorder() the object

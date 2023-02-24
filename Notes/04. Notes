@@ -1,0 +1,11 @@
+Start of with saying current way of importing three.js has limitations
+1-> only acces to core classes.
+2-> when opening html file, your browser wont let you let javascript
+execute any instructions for security reasons
+wont read local files like textures or models.
+
+solution: run it on a local server
+this is done using build tools like webpack and vite
+
+goes over node.js and npm, but already have that installed
+runs vite
