@@ -9,3 +9,17 @@ perspective camera: we've used this so far
 we use orthographic and perspective cameras in this lesson
 
 perspective camera parameters: (field of view(vertical), aspect ratio, near, far )
+
+different build-in controls
+
+DeviceOrientationControls: controls that use the device orientation like for phones or tablets.
+FlyControls: up down, rotate
+firstPersonControls: Like fly control but cant change the up axis. z rotation cant change.
+PointerLock Controls: lock pointer in middle or something and change the camera based on the pointer
+OrbitControls: Orbit around with mouse drag.
+trackballControls: loop around ball
+
+TransformControls: nothing with camera, but makes it so items can be moved with axishelper like ting
+dragControls: Drag objects
+
+when to use made controls? if it works just do it.
