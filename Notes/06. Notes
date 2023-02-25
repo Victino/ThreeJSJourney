@@ -1,0 +1,17 @@
+1.
+Animations are renderes which you do every frame.
+You can impact the amount of time an animation moves by
+making them move according to delta time(current = date.now())
+
+2.
+Other solution would be clock.
+clock calculates the time since start, and you can
+move an objects according to the increasing elapsed time
+
+2.5
+another method is getDelta... don't use it.
+getDelta gives weird results
+
+3.
+GSAP library adding to dependencies
+gsap.to(mesh, {duration: value, delay: value, x/y/z: value})

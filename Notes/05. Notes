@@ -25,3 +25,6 @@ updating one will update other aswell.
 also has x y z axis
 be careful with rotation because of order of rotation
 you'd have to reorder() the object
+
+groups are for adding multiple objects, and you can
+edit those objects simultaneously.

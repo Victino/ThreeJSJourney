@@ -1,0 +1,11 @@
+Cameras
+stereocamera: effect of depth for devices like vr, with both eyes
+cube camera: renders of each size of a cube?
+                reflection, shadow, environment map
+orthographic camera: render scene without perspective
+perspective camera: we've used this so far
+
+
+we use orthographic and perspective cameras in this lesson
+
+perspective camera parameters: (field of view(vertical), aspect ratio, near, far )
