@@ -1,0 +1,29 @@
+Geometries
+
+Only used BoxGeometry up until now
+
+a geometry consist of vertices.. punten in 3d
+those are linked to create faces
+
+for now, focus on creating triangles/faces
+each vertex will have a position, uv coordinate, normal and everything else? color, random values, size of particles
+
+BoxGeometry, basic box
+PlaneGeometry, basic square plane
+CircleGeometry, basic circle
+ConeGeometry,
+CylinderGeometry,
+RingGeometry,   ring with enges
+TorusGeometry, circle ring like
+TorusKnotGeometry, knot like rope
+DodecahedronGeometry,
+OctaHedronGeometry,
+TetrahedronGeometry,
+IcosaHedronGeometry,
+SphereGeometry,
+ShapeGeometry, heart? curve
+TubeGeometry,
+ExtrudeGeometry,
+LatheGeometry,
+TextGeometry, allows written text
+

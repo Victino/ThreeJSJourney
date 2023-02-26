@@ -1,0 +1,6 @@
+resizing by window.innerWidth and window.innerHeight
+camera with camera.aspect 
+renderer with setsize()
+
+window.eventListener works for double clicks and requestFullscreen()
+Pixel ratio limit/ correction for device with window.devicePixelRatio
