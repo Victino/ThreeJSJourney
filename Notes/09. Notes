@@ -7,6 +7,17 @@ those are linked to create faces
 
 for now, focus on creating triangles/faces
 each vertex will have a position, uv coordinate, normal and everything else? color, random values, size of particles
+Buffer geometry is used for storing own geometries
+
+Float32Array
+typed array can only store one datatype
+has a fixed length
+Much better for performance
+
+
+
+
+
 
 BoxGeometry, basic box
 PlaneGeometry, basic square plane

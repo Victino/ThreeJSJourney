@@ -9,6 +9,20 @@ import * as lil from 'lil-gui'
  */
 const gui = new lil.GUI();
 
+const parameters = {
+    color: 0xff0000,
+    spin: () => {
+        gsap.to(mesh.rotation, {duration: 1.5, y: mesh.rotation.y + 10}).then(() => {});
+    },
+} 
+
+gui
+.addColor(parameters, 'color')
+.onChange(() => {
+    material.color.set(parameters.color);
+});
+gui.add(parameters, 'spin');
+
 /**
  * Base
  */
@@ -22,7 +36,7 @@ const scene = new THREE.Scene()
  * Object
  */
 const geometry = new THREE.BoxGeometry(1, 1, 1)
-const material = new THREE.MeshBasicMaterial({ color: 0xff0000 })
+const material = new THREE.MeshBasicMaterial({ color: parameters.color })
 const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
 
@@ -31,7 +45,7 @@ gui.add(mesh.position, 'y', -3, 3, 0.01).name("Red cube y");
 gui.add(mesh.position, 'z', -3, 3, 0.01)
 gui.add(mesh, 'visible')
 gui.add(material, 'wireframe')
-gui.addColor(material, '0xffff00');
+
 /**
  * Sizes
  */
