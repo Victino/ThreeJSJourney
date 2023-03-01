@@ -7,7 +7,7 @@ import * as lil from 'lil-gui'
 /**
  * Debug mode
  */
-const gui = new lil.GUI()
+const gui = new lil.GUI();
 
 /**
  * Base
@@ -26,10 +26,12 @@ const material = new THREE.MeshBasicMaterial({ color: 0xff0000 })
 const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
 
-gui.add(mesh.position, 'x', -3, 3, 0.01)
-gui.add(mesh.position, 'y', -3, 3, 0.01)
+gui.add(mesh.position, 'x', -3, 3, 0.01).name("RED X axis");
+gui.add(mesh.position, 'y', -3, 3, 0.01).name("Red cube y");
 gui.add(mesh.position, 'z', -3, 3, 0.01)
-
+gui.add(mesh, 'visible')
+gui.add(material, 'wireframe')
+gui.addColor(material, '0xffff00');
 /**
  * Sizes
  */
