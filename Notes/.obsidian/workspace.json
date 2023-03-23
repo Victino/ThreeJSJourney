@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a210328a384ab3e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "14. Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13. Notes.md",
+                "file": "14. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13. Notes.md",
+                "file": "14. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13. Notes.md"
+                "file": "14. Notes.md"
               }
             }
           }
@@ -181,8 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2feb030083a1c3d3",
+  "active": "a210328a384ab3e1",
   "lastOpenFiles": [
+    "11. Notes.md",
+    "14. Notes.md",
     "Note Images/Pasted image 20230321230803.png",
     "Note Images/Pasted image 20230321225636.png",
     "Note Images/Pasted image 20230321225129.png",
@@ -191,7 +205,6 @@
     "13. Notes.md",
     "Note Images/Pasted image 20230319165453.png",
     "12. Notes.md",
-    "11. Notes.md",
     "05. Notes.md",
     "04. Notes.md",
     "06. Notes.md",
@@ -203,7 +216,6 @@
     "12. Notes 1.md",
     "Note Images/Pasted image 20230317214621.png",
     "Note Images/Pasted image 20230317214141.png",
-    "Note Images/Pasted image 20230317212834.png",
     "03. Notes.md",
     "Note Images"
   ]
