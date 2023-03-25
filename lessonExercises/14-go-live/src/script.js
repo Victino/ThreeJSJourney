@@ -57,6 +57,7 @@ fontLoader.load(
         // Donuts
         const donutGeometry = new THREE.TorusGeometry(0.3, 0.2, 32, 64)
 
+        const donuts = []
         for(let i = 0; i < 100; i++)
         {
             const donut = new THREE.Mesh(donutGeometry, material)
@@ -68,7 +69,28 @@ fontLoader.load(
             const scale = Math.random()
             donut.scale.set(scale, scale, scale)
             scene.add(donut)
+            donuts.push(donut)
         }
+
+        // Click event listener
+        canvas.addEventListener('click', (event) =>
+        {
+            // Mouse position
+            const mouse = new THREE.Vector2(
+                (event.clientX / sizes.width) * 2 - 1,
+                -(event.clientY / sizes.height) * 2 + 1
+            )
+
+            // Raycasting
+            const raycaster = new THREE.Raycaster()
+            raycaster.setFromCamera(mouse, camera)
+            const intersects = raycaster.intersectObjects(donuts)
+
+            if(intersects.length > 0)
+            {
+                const intersectedDonut = intersects[0].object
+                intersectedDonut.rotation.x = tick.elapsedTime * 0.1;
+            }
     }
 )
 
@@ -127,14 +149,17 @@ const tick = () =>
 {
     const elapsedTime = clock.getElapsedTime()
 
+    // Update objects
+    donutGeometry.rotateY(0.01);
+
+
     // Update controls
     controls.update()
-
     // Render
     renderer.render(scene, camera)
-
     // Call tick again on the next frame
     window.requestAnimationFrame(tick)
 }
 
 tick()
+})
