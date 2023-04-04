@@ -4,53 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b2fe17c77217c961",
+        "id": "074fe77da10b42fc",
         "type": "tabs",
         "children": [
           {
-            "id": "689d919fc6f54f38",
+            "id": "7f4266413d008fdd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15. Lights.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d90b6014ed525585",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. Textures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "327256872e25bd52",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Note Images/Pasted image 20230319165300.png"
-              }
-            }
-          },
-          {
-            "id": "b94b5fcc13c2980a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13. 3D text.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -119,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. Lights.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. Lights.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "15. Lights.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -180,8 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2feb030083a1c3d3",
+  "active": "7f4266413d008fdd",
   "lastOpenFiles": [
+    "15. Lights.md",
+    "11. Textures.md",
+    "13. 3D text.md",
     "Note Images/Pasted image 20230404164949.png",
     "Note Images/Pasted image 20230404164833.png",
     "Note Images/Pasted image 20230404164751.png",
@@ -191,10 +152,8 @@
     "Note Images/Pasted image 20230404163543.png",
     "Note Images/Pasted image 20230404163431.png",
     "Note Images/Pasted image 20230404163349.png.md",
-    "15. Lights.md",
     "Pasted image 20230404163349.png",
     "Note Images/Pasted image 20230404163018.png",
-    "Note Images/Pasted image 20230404162918.png",
     "03. Basic scene.md",
     "04. Local Server.md",
     "05. Transform objects.md",
@@ -202,9 +161,7 @@
     "07. Cameras.md",
     "08. Fullscreen and resizing.md",
     "09. Geometries.md",
-    "11. Textures.md",
     "12. Materials.md",
-    "13. 3D text.md",
     "14. Go live.md",
     "12. Notes 1.md",
     "Note Images"
