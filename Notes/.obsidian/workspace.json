@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "074fe77da10b42fc",
+        "id": "0cd3e5c29aae9e1b",
         "type": "tabs",
         "children": [
           {
-            "id": "7f4266413d008fdd",
+            "id": "b04a910caf3747b7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f4266413d008fdd",
+  "active": "2feb030083a1c3d3",
   "lastOpenFiles": [
-    "15. Lights.md",
+    "16. Shadows.md",
+    "Untitled.canvas",
+    "03. Basic scene.md",
+    "04. Local Server.md",
+    "05. Transform objects.md",
+    "06. Animations.md",
+    "07. Cameras.md",
+    "08. Fullscreen and resizing.md",
+    "09. Geometries.md",
     "11. Textures.md",
+    "12. Materials.md",
+    "14. Go live.md",
+    "15. Lights.md",
+    "Note Images/Pasted image 20230406194110.png",
     "13. 3D text.md",
     "Note Images/Pasted image 20230404164949.png",
     "Note Images/Pasted image 20230404164833.png",
@@ -153,16 +165,6 @@
     "Note Images/Pasted image 20230404163431.png",
     "Note Images/Pasted image 20230404163349.png.md",
     "Pasted image 20230404163349.png",
-    "Note Images/Pasted image 20230404163018.png",
-    "03. Basic scene.md",
-    "04. Local Server.md",
-    "05. Transform objects.md",
-    "06. Animations.md",
-    "07. Cameras.md",
-    "08. Fullscreen and resizing.md",
-    "09. Geometries.md",
-    "12. Materials.md",
-    "14. Go live.md",
     "12. Notes 1.md",
     "Note Images"
   ]
