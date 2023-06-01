@@ -8,11 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b04a910caf3747b7",
+            "id": "7b0b142b8b48de86",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Note Images/Pasted image 20230601215513.png"
+              }
             }
           }
         ]
@@ -60,6 +62,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d12267ad638c4323",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Note Images/Pasted image 20230601215513.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Note Images/Pasted image 20230601215513.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Note Images/Pasted image 20230601215513.png"
+              }
             }
           }
         ]
@@ -140,31 +154,34 @@
   },
   "active": "2feb030083a1c3d3",
   "lastOpenFiles": [
+    "19. Galaxy Generator.md",
+    "Note Images/Pasted image 20230601215513.png",
+    "18. Particles.md",
+    "17. Haunted House.md",
     "16. Shadows.md",
-    "Untitled.canvas",
+    "15. Lights.md",
+    "13. 3D text.md",
+    "12. Materials.md",
+    "11. Textures.md",
     "03. Basic scene.md",
+    "Note Images/Pasted image 20230601212041.png",
+    "Note Images/Pasted image 20230601212759.png",
+    "Note Images/Pasted image 20230601211514.png",
+    "14. Go live.md",
+    "Note Images/Pasted image 20230601211943.png",
+    "Note Images/Pasted image 20230521213905.png",
+    "Note Images/Pasted image 20230521213802.png",
+    "Note Images/Pasted image 20230521213737.png",
+    "06. Animations.md",
     "04. Local Server.md",
     "05. Transform objects.md",
-    "06. Animations.md",
+    "Note Images/Pasted image 20230521213336.png",
+    "Note Images/Pasted image 20230521212923.png",
+    "Untitled.canvas",
     "07. Cameras.md",
     "08. Fullscreen and resizing.md",
     "09. Geometries.md",
-    "11. Textures.md",
-    "12. Materials.md",
-    "14. Go live.md",
-    "15. Lights.md",
-    "Note Images/Pasted image 20230406194110.png",
-    "13. 3D text.md",
-    "Note Images/Pasted image 20230404164949.png",
-    "Note Images/Pasted image 20230404164833.png",
-    "Note Images/Pasted image 20230404164751.png",
-    "Note Images/Pasted image 20230404164715.png",
-    "Note Images/Pasted image 20230404164540.png",
-    "Note Images/Pasted image 20230404164428.png",
-    "Note Images/Pasted image 20230404163543.png",
-    "Note Images/Pasted image 20230404163431.png",
     "Note Images/Pasted image 20230404163349.png.md",
-    "Pasted image 20230404163349.png",
     "12. Notes 1.md",
     "Note Images"
   ]
