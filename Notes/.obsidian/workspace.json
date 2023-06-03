@@ -16,8 +16,33 @@
                 "file": "Note Images/Pasted image 20230601215513.png"
               }
             }
+          },
+          {
+            "id": "88f5d119a78a3b5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19. Galaxy Generator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d89546d3e7d9a640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20. Scroll based animation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note Images/Pasted image 20230601215513.png",
+                "file": "20. Scroll based animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note Images/Pasted image 20230601215513.png",
+                "file": "20. Scroll based animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note Images/Pasted image 20230601215513.png"
+                "file": "20. Scroll based animation.md"
               }
             }
           }
@@ -152,9 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2feb030083a1c3d3",
+  "active": "d89546d3e7d9a640",
   "lastOpenFiles": [
     "19. Galaxy Generator.md",
+    "20. Scroll based animation.md",
+    "Note Images/Pasted image 20230603135252.png",
     "Note Images/Pasted image 20230601215513.png",
     "18. Particles.md",
     "17. Haunted House.md",
@@ -176,7 +203,6 @@
     "04. Local Server.md",
     "05. Transform objects.md",
     "Note Images/Pasted image 20230521213336.png",
-    "Note Images/Pasted image 20230521212923.png",
     "Untitled.canvas",
     "07. Cameras.md",
     "08. Fullscreen and resizing.md",
