@@ -23,13 +23,28 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 /**
- * Test cube
+ * Objects
  */
-const cube = new THREE.Mesh(
-    new THREE.BoxGeometry(1, 1, 1),
-    new THREE.MeshBasicMaterial({ color: '#ff0000' })
+
+const mesh1 = new THREE.Mesh(
+    new THREE.BoxGeometry(1, 0.4, 16, 60),
+    new THREE.MeshBasicMaterial({ color: parameters.materialColor })
 )
-scene.add(cube)
+
+const mesh2 = new THREE.Mesh(
+    new THREE.ConeGeometry(1, 2, 32),
+    new THREE.MeshBasicMaterial({ color: parameters.materialColor })
+)
+
+const mesh3 = new THREE.Mesh(
+    new THREE.TorusGeometry(0.8, 0.35, 100, 16),
+    new THREE.MeshBasicMaterial({ color: parameters.materialColor })
+)
+
+scene.add(mesh1, mesh2, mesh3)
+
+
+
 
 /**
  * Sizes
