@@ -8,65 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "689d919fc6f54f38",
+            "id": "51e3f4de76bf7f86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11. Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d90b6014ed525585",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "327256872e25bd52",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Note Images/Pasted image 20230319165300.png"
-              }
-            }
-          },
-          {
-            "id": "b94b5fcc13c2980a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13. Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a210328a384ab3e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "14. Notes.md",
+                "file": "15. Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14. Notes.md",
+                "file": "15. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14. Notes.md",
+                "file": "15. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14. Notes.md"
+                "file": "15. Notes.md"
               }
             }
           }
@@ -193,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a210328a384ab3e1",
+  "active": "51e3f4de76bf7f86",
   "lastOpenFiles": [
-    "11. Notes.md",
+    "15. Notes.md",
     "14. Notes.md",
+    "11. Notes.md",
     "Note Images/Pasted image 20230321230803.png",
     "Note Images/Pasted image 20230321225636.png",
     "Note Images/Pasted image 20230321225129.png",
