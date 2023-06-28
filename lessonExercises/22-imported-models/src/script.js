@@ -46,7 +46,7 @@ let mixer = null
 gltfLoader.load(
     '/models/Fox/glTF/Fox.gltf',
     (gltf) =>
-    {
+    {  
         gltf.scene.scale.set(0.03, 0.03, 0.03)
         scene.add(gltf.scene)
 
