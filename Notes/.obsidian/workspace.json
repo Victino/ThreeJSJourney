@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dcdb9458647b7adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "24. Custom models with Blender.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0d0ed43c0077550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "25. Environment map.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "401e1171289cf89f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "26. Realistic render.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4fda07a03ff6443",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "27. Code Structuring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "23. Raycaster and Mouse Events.md",
+                "file": "27. Code Structuring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "23. Raycaster and Mouse Events.md",
+                "file": "27. Code Structuring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "23. Raycaster and Mouse Events.md"
+                "file": "27. Code Structuring.md"
               }
             }
           }
@@ -146,11 +195,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc64fcc720263732",
+  "active": "e4fda07a03ff6443",
   "lastOpenFiles": [
-    "Note Images/Pasted image 20230628220636.png",
+    "26. Realistic render.md",
+    "27. Code Structuring.md",
+    "25. Environment map.md",
+    "24. Custom models with Blender.md",
+    "Note Images/Pasted image 20230831145622.png",
+    "Note Images/007.jpg",
+    "Note Images/003.png",
+    "Note Images/Pasted image 20230831121426.png",
+    "Note Images/Pasted image 20230831121312.png",
+    "19. Galaxy Generator.md",
+    "20. Scroll based animation.md",
+    "18. Particles.md",
     "22. Imported models.md",
+    "23. Raycaster and Mouse Events.md",
+    "Note Images/Donut Base.png",
+    "Note Images/coloredDonut.png",
+    "Note Images/firstRender.png",
+    "Note Images/simpleBurger.png",
+    "Note Images/020.png",
     "21. Physics.md",
-    "23. Raycaster and Mouse Events.md"
+    "17. Haunted House.md",
+    "15. Notes.md",
+    "16. Shadows.md",
+    "14. Go live.md",
+    "13. 3D text.md",
+    "09. Geometries.md",
+    "03. Basic scene.md"
   ]
 }
