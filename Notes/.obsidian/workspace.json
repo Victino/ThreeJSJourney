@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "27. Code Structuring.md",
+                "file": "15. Lights.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "27. Code Structuring.md",
+                "file": "15. Lights.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "27. Code Structuring.md",
+                "file": "15. Lights.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "27. Code Structuring.md"
+                "file": "15. Lights.md"
               }
             }
           }
@@ -197,31 +197,35 @@
   },
   "active": "e4fda07a03ff6443",
   "lastOpenFiles": [
+    "22. Imported models.md",
+    "19. Galaxy Generator.md",
+    "16. Shadows.md",
+    "13. 3D text.md",
+    "11. Textures.md",
+    "06. Animations.md",
+    "04. Local Server.md",
+    "24. Custom models with Blender.md",
+    "25. Environment map.md",
+    "23. Raycaster and Mouse Events.md",
+    "21. Physics.md",
+    "20. Scroll based animation.md",
+    "15. Lights.md",
+    "17. Haunted House.md",
+    "14. Go live.md",
     "26. Realistic render.md",
     "27. Code Structuring.md",
-    "25. Environment map.md",
-    "24. Custom models with Blender.md",
     "Note Images/Pasted image 20230831145622.png",
     "Note Images/007.jpg",
     "Note Images/003.png",
     "Note Images/Pasted image 20230831121426.png",
     "Note Images/Pasted image 20230831121312.png",
-    "19. Galaxy Generator.md",
-    "20. Scroll based animation.md",
     "18. Particles.md",
-    "22. Imported models.md",
-    "23. Raycaster and Mouse Events.md",
     "Note Images/Donut Base.png",
     "Note Images/coloredDonut.png",
     "Note Images/firstRender.png",
     "Note Images/simpleBurger.png",
     "Note Images/020.png",
-    "21. Physics.md",
-    "17. Haunted House.md",
     "15. Notes.md",
-    "16. Shadows.md",
-    "14. Go live.md",
-    "13. 3D text.md",
     "09. Geometries.md",
     "03. Basic scene.md"
   ]
