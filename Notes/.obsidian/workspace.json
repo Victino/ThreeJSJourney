@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0c359dd9c4eb41d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "32. Coffee Smoke.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. Lights.md",
+                "file": "32. Coffee Smoke.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. Lights.md",
+                "file": "32. Coffee Smoke.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15. Lights.md"
+                "file": "32. Coffee Smoke.md"
               }
             }
           }
@@ -195,8 +207,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4fda07a03ff6443",
+  "active": "e0c359dd9c4eb41d",
   "lastOpenFiles": [
+    "Pasted image 20240307171452.png",
+    "Note Images/Pasted image 20240307164102.png",
+    "Note Images/Pasted image 20240307162742.png",
+    "Note Images/Pasted image 20240307162735.png",
+    "Pasted image 20240307162251.png",
+    "32. Coffee Smoke.md",
+    "Note Images/Pasted image 20240307161415.png",
+    "Note Images/Pasted image 20240307161408.png",
+    "15. Lights.md",
     "22. Imported models.md",
     "19. Galaxy Generator.md",
     "16. Shadows.md",
@@ -209,7 +230,6 @@
     "23. Raycaster and Mouse Events.md",
     "21. Physics.md",
     "20. Scroll based animation.md",
-    "15. Lights.md",
     "17. Haunted House.md",
     "14. Go live.md",
     "26. Realistic render.md",
@@ -218,13 +238,7 @@
     "Note Images/007.jpg",
     "Note Images/003.png",
     "Note Images/Pasted image 20230831121426.png",
-    "Note Images/Pasted image 20230831121312.png",
     "18. Particles.md",
-    "Note Images/Donut Base.png",
-    "Note Images/coloredDonut.png",
-    "Note Images/firstRender.png",
-    "Note Images/simpleBurger.png",
-    "Note Images/020.png",
     "15. Notes.md",
     "09. Geometries.md",
     "03. Basic scene.md"
