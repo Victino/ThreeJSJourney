@@ -71,16 +71,26 @@
             "id": "e0c359dd9c4eb41d",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Note Images/Pasted image 20240307171452.png"
+              }
+            }
+          },
+          {
+            "id": "95e822aeb7165c69",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "32. Coffee Smoke.md",
+                "file": "33. Hologram.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "32. Coffee Smoke.md",
+                "file": "33. Hologram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "32. Coffee Smoke.md",
+                "file": "33. Hologram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "32. Coffee Smoke.md"
+                "file": "33. Hologram.md"
               }
             }
           }
@@ -207,16 +217,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0c359dd9c4eb41d",
+  "active": "cc64fcc720263732",
   "lastOpenFiles": [
-    "Pasted image 20240307171452.png",
+    "Note Images/Pasted image 20240309172231.png",
+    "Note Images/Pasted image 20240309165740.png",
+    "Note Images/Pasted image 20240309165402.png",
+    "Note Images/Pasted image 20240309165255.png",
+    "Note Images/Pasted image 20240309165221.png",
+    "Note Images/Pasted image 20240307171452.png",
+    "33. Hologram.md",
+    "32. Coffee Smoke.md",
     "Note Images/Pasted image 20240307164102.png",
     "Note Images/Pasted image 20240307162742.png",
     "Note Images/Pasted image 20240307162735.png",
     "Pasted image 20240307162251.png",
-    "32. Coffee Smoke.md",
     "Note Images/Pasted image 20240307161415.png",
-    "Note Images/Pasted image 20240307161408.png",
     "15. Lights.md",
     "22. Imported models.md",
     "19. Galaxy Generator.md",
@@ -234,10 +249,6 @@
     "14. Go live.md",
     "26. Realistic render.md",
     "27. Code Structuring.md",
-    "Note Images/Pasted image 20230831145622.png",
-    "Note Images/007.jpg",
-    "Note Images/003.png",
-    "Note Images/Pasted image 20230831121426.png",
     "18. Particles.md",
     "15. Notes.md",
     "09. Geometries.md",
