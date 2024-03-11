@@ -3,6 +3,8 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import GUI from 'lil-gui'
 import fireworkVertexShader from './shaders/firework/vertex.glsl'
 import fireworkFragmentShader from './shaders/firework/fragment.glsl'
+import gsap from 'gsap'
+import { Sky } from 'three/addons/objects/Sky.js'
 
 /**
  * Base
@@ -70,7 +72,7 @@ renderer.setPixelRatio(sizes.pixelRatio)
 /**
  * fireworks
  */
-const createFirework = (count, position, size, texture, radius) =>
+const createFirework = (count, position, size, texture, radius, color) =>
 {
     // Geometry
     const positionsArray = new Float32Array(count * 3)
@@ -95,9 +97,17 @@ const createFirework = (count, position, size, texture, radius) =>
 
     }
     
+    const timeMultipliersArray = new Float32Array(count)
+    for(let i = 0; i < count; i++)
+    {
+
+        timeMultipliersArray[i] = 1 + Math.random()
+    }
+
     const geometry = new THREE.BufferGeometry()
     geometry.setAttribute('position', new THREE.Float32BufferAttribute(positionsArray, 3))
     geometry.setAttribute('aSize', new THREE.Float32BufferAttribute(sizesArray, 1))
+    geometry.setAttribute('aTimeMultiplier', new THREE.Float32BufferAttribute(timeMultipliersArray, 1))
 
     const sizes = {
         width: window.innerWidth,
@@ -114,7 +124,9 @@ const createFirework = (count, position, size, texture, radius) =>
         {
             uSize: new THREE.Uniform(size),
             uResolution: new THREE.Uniform(sizes.resolution),
-            uTexture: new THREE.Uniform(texture)
+            uTexture: new THREE.Uniform(texture),
+            uColor: new THREE.Uniform(color),
+            uProgress: new THREE.Uniform(0)
         },
         transparent: true,
         depthWrite: false,
@@ -125,6 +137,38 @@ const createFirework = (count, position, size, texture, radius) =>
      const firework = new THREE.Points(geometry, material)
      firework.position.copy(position)
      scene.add(firework)
+
+    // Destroy
+    const destroy = () =>
+    {
+        scene.remove(firework)
+        geometry.dispose()
+        material.dispose()
+    }
+
+    // Animate
+    gsap.to(
+        material.uniforms.uProgress,
+        { value: 1, duration: 3, ease: 'linear', onComplete: destroy },
+    )
+}
+
+const createRandomFirework = () =>
+{
+    const count = Math.round(400 + Math.random() * 1000)
+    const position = new THREE.Vector3(
+        (Math.random() - 0.5) * 2,
+        Math.random(),
+        (Math.random() - 0.5) * 2
+    )
+    const size = 0.1 + Math.random() * 0.1
+    const texture = textures[Math.floor(Math.random() * textures.length)]
+    const radius = 0.5 + Math.random()
+    const color = new THREE.Color()
+    color.setHSL(Math.random(), 1, 0.7)
+
+    createFirework(count, position, size, texture, radius, color)
+
 }
 
 const textures = [
@@ -138,13 +182,56 @@ const textures = [
     textureLoader.load('./particles/8.png'),
 ]
 
-createFirework(
-    100,                 // Count
-    new THREE.Vector3(), // Position
-    0.5,                 // Size
-    textures[7],         // Texture
-    1                    // Radius
-)
+createRandomFirework()
+document.addEventListener('click', createRandomFirework)
+
+/**
+ * Sky
+ */
+const sky = new Sky()
+sky.scale.setScalar(450000)
+scene.add(sky)
+
+const sun = new THREE.Vector3()
+
+const skyParameters = {
+    turbidity: 10,
+    rayleigh: 3,
+    mieCoefficient: 0.005,
+    mieDirectionalG: 0.95,
+    elevation: -2.2,
+    azimuth: 180,
+    exposure: renderer.toneMappingExposure
+}
+
+const updateSky = () =>
+{
+    const uniforms = sky.material.uniforms
+    uniforms['turbidity'].value = skyParameters.turbidity
+    uniforms['rayleigh'].value = skyParameters.rayleigh
+    uniforms['mieCoefficient'].value = skyParameters.mieCoefficient
+    uniforms['mieDirectionalG'].value = skyParameters.mieDirectionalG
+
+    const phi = THREE.MathUtils.degToRad(90 - skyParameters.elevation)
+    const theta = THREE.MathUtils.degToRad(skyParameters.azimuth)
+
+    sun.setFromSphericalCoords(1, phi, theta)
+
+    uniforms['sunPosition'].value.copy(sun)
+
+    renderer.toneMappingExposure = skyParameters.exposure
+    renderer.render(scene, camera)
+}
+
+gui.add(skyParameters, 'turbidity', 0.0, 20.0, 0.1).onChange(updateSky)
+gui.add(skyParameters, 'rayleigh', 0.0, 4, 0.001).onChange(updateSky)
+gui.add(skyParameters, 'mieCoefficient', 0.0, 0.1, 0.001).onChange(updateSky)
+gui.add(skyParameters, 'mieDirectionalG', 0.0, 1, 0.001).onChange(updateSky)
+gui.add(skyParameters, 'elevation', -3, 10, 0.01).onChange(updateSky)
+gui.add(skyParameters, 'azimuth', - 180, 180, 0.1).onChange(updateSky)
+gui.add(skyParameters, 'exposure', 0, 1, 0.0001).onChange(updateSky)
+
+updateSky()
 
 /**
  * Animate
