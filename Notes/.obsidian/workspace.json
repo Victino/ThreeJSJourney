@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "33. Hologram.md",
+                "file": "07. Cameras.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "33. Hologram.md",
+                "file": "07. Cameras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "33. Hologram.md",
+                "file": "07. Cameras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "33. Hologram.md"
+                "file": "07. Cameras.md"
               }
             }
           }
@@ -217,8 +217,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc64fcc720263732",
+  "active": "95e822aeb7165c69",
   "lastOpenFiles": [
+    "23. Raycaster and Mouse Events.md",
     "Note Images/Pasted image 20240309172231.png",
     "Note Images/Pasted image 20240309165740.png",
     "Note Images/Pasted image 20240309165402.png",
@@ -231,7 +232,6 @@
     "Note Images/Pasted image 20240307162742.png",
     "Note Images/Pasted image 20240307162735.png",
     "Pasted image 20240307162251.png",
-    "Note Images/Pasted image 20240307161415.png",
     "15. Lights.md",
     "22. Imported models.md",
     "19. Galaxy Generator.md",
@@ -242,7 +242,6 @@
     "04. Local Server.md",
     "24. Custom models with Blender.md",
     "25. Environment map.md",
-    "23. Raycaster and Mouse Events.md",
     "21. Physics.md",
     "20. Scroll based animation.md",
     "17. Haunted House.md",
