@@ -271,8 +271,7 @@ const tick = () =>
     // torus.rotation.x = elapsedTime * 1
 
     // Update Earth's rotation
-     earth.rotation.y = elapsedTime * 0.05
-     earth.rotation.x = elapsedTime * 0.07
+     earth.rotation.y = elapsedTime * -0.1
 
     // Animate camera
     camera.position.y = -scrollY * 0.002
