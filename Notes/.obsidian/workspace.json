@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "38. Earth.md",
+                "file": "12. Materials.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "38. Earth.md",
+                "file": "12. Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "38. Earth.md",
+                "file": "12. Materials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "38. Earth.md"
+                "file": "12. Materials.md"
               }
             }
           }
@@ -241,8 +241,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc64fcc720263732",
+  "active": "12a76d8f4858e36b",
   "lastOpenFiles": [
+    "11. Textures.md",
+    "09. Geometries.md",
+    "23. Raycaster and Mouse Events.md",
+    "24. Custom models with Blender.md",
     "Note Images/Pasted image 20240313143109.png",
     "Note Images/Pasted image 20240313143048.png",
     "Note Images/Pasted image 20240313143029.png",
@@ -255,22 +259,18 @@
     "37. Halftone Shading.md",
     "38. Earth.md",
     "Note Images/Pasted image 20240313135215.png",
-    "Note Images/Pasted image 20240313135052.png",
     "33. Hologram.md",
     "32. Coffee Smoke.md",
     "26. Realistic render.md",
     "12. Materials.md",
-    "23. Raycaster and Mouse Events.md",
     "22. Imported models.md",
     "07. Cameras.md",
     "15. Lights.md",
     "19. Galaxy Generator.md",
     "16. Shadows.md",
     "13. 3D text.md",
-    "11. Textures.md",
     "06. Animations.md",
     "04. Local Server.md",
-    "24. Custom models with Blender.md",
     "25. Environment map.md",
     "21. Physics.md",
     "20. Scroll based animation.md",
