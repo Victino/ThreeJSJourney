@@ -146,9 +146,41 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1010fd7bc4328792",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
+            "id": "67f12fb95de03986",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Note Images/Pasted image 20240325155345.png"
+              }
+            }
+          },
+          {
+            "id": "ca1363e20690ebe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "47. Intro and loading progress.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -214,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "44. Procedural terrain.md",
+                "file": "47. Intro and loading progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "44. Procedural terrain.md",
+                "file": "47. Intro and loading progress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "44. Procedural terrain.md"
+                "file": "47. Intro and loading progress.md"
               }
             }
           }
@@ -275,26 +307,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b67b1e177b847d9",
+  "active": "ca1363e20690ebe2",
   "lastOpenFiles": [
+    "38. Earth.md",
+    "44. Procedural terrain.md",
+    "47. Intro and loading progress.md",
+    "Note Images/Pasted image 20240325160441.png",
+    "Note Images/Pasted image 20240325155345.png",
+    "Note Images/Pasted image 20240325154732.png",
     "Note Images/Pasted image 20240320144059.png",
     "Note Images/Pasted image 20240320144227.png",
-    "44. Procedural terrain.md",
     "Note Images/Pasted image 20240320145252.png",
     "Note Images/Pasted image 20240320145054.png",
     "Note Images/Pasted image 20240320145028.png",
     "Note Images/Pasted image 20240320144936.png",
     "Note Images/Pasted image 20240320144609.png",
-    "Note Images/Pasted image 20240320144447.png",
-    "Note Images/Pasted image 20240320144358.png",
     "12. Materials.md",
     "11. Textures.md",
     "09. Geometries.md",
     "23. Raycaster and Mouse Events.md",
     "24. Custom models with Blender.md",
-    "Note Images/Pasted image 20240313143109.png",
     "37. Halftone Shading.md",
-    "38. Earth.md",
     "33. Hologram.md",
     "32. Coffee Smoke.md",
     "26. Realistic render.md",
@@ -310,7 +343,6 @@
     "21. Physics.md",
     "20. Scroll based animation.md",
     "17. Haunted House.md",
-    "14. Go live.md",
-    "27. Code Structuring.md"
+    "14. Go live.md"
   ]
 }
