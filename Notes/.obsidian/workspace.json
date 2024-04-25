@@ -178,9 +178,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f524cb0f562fcc95",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
+            "id": "b077651742239081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "53. React and React Three Fiber.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -246,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "47. Intro and loading progress.md",
+                "file": "53. React and React Three Fiber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "47. Intro and loading progress.md",
+                "file": "53. React and React Three Fiber.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +308,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "47. Intro and loading progress.md"
+                "file": "53. React and React Three Fiber.md"
               }
             }
           }
@@ -307,8 +329,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca1363e20690ebe2",
+  "active": "b077651742239081",
   "lastOpenFiles": [
+    "53. React and React Three Fiber.md",
     "38. Earth.md",
     "44. Procedural terrain.md",
     "47. Intro and loading progress.md",
