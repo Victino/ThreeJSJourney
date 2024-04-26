@@ -200,9 +200,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f69a178bb9812397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "55. First R3F application.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -268,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "53. React and React Three Fiber.md",
+                "file": "55. First R3F application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "53. React and React Three Fiber.md",
+                "file": "55. First R3F application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,7 +320,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "53. React and React Three Fiber.md"
+                "file": "55. First R3F application.md"
               }
             }
           }
@@ -329,9 +341,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b077651742239081",
+  "active": "f69a178bb9812397",
   "lastOpenFiles": [
+    "Pasted image 20240426134319.png",
+    "Pasted image 20240426134220.png",
+    "Pasted image 20240426133149.png",
     "53. React and React Three Fiber.md",
+    "55. First R3F application.md",
     "38. Earth.md",
     "44. Procedural terrain.md",
     "47. Intro and loading progress.md",
@@ -343,8 +359,6 @@
     "Note Images/Pasted image 20240320145252.png",
     "Note Images/Pasted image 20240320145054.png",
     "Note Images/Pasted image 20240320145028.png",
-    "Note Images/Pasted image 20240320144936.png",
-    "Note Images/Pasted image 20240320144609.png",
     "12. Materials.md",
     "11. Textures.md",
     "09. Geometries.md",
@@ -364,8 +378,6 @@
     "04. Local Server.md",
     "25. Environment map.md",
     "21. Physics.md",
-    "20. Scroll based animation.md",
-    "17. Haunted House.md",
-    "14. Go live.md"
+    "20. Scroll based animation.md"
   ]
 }
