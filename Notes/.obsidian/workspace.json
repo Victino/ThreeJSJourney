@@ -212,9 +212,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fabb6ed7d4df8401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "23. Raycaster and Mouse Events.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4a6044834ae4b4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "23. Raycaster and Mouse Events.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35d9d3aaf5435f05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "56. Drei.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -280,7 +316,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "55. First R3F application.md",
+                "file": "56. Drei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "55. First R3F application.md",
+                "file": "56. Drei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,7 +356,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "55. First R3F application.md"
+                "file": "56. Drei.md"
               }
             }
           }
@@ -341,13 +377,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f69a178bb9812397",
+  "active": "35d9d3aaf5435f05",
   "lastOpenFiles": [
-    "Pasted image 20240426134319.png",
-    "Pasted image 20240426134220.png",
-    "Pasted image 20240426133149.png",
-    "53. React and React Three Fiber.md",
+    "Note Images/Pasted image 20240522235052.png",
+    "Note Images/Pasted image 20240426134319.png",
+    "Note Images/Pasted image 20240426134220.png",
+    "Note Images/Pasted image 20240426133149.png",
+    "56. Drei.md",
+    "26. Realistic render.md",
+    "23. Raycaster and Mouse Events.md",
     "55. First R3F application.md",
+    "53. React and React Three Fiber.md",
     "38. Earth.md",
     "44. Procedural terrain.md",
     "47. Intro and loading progress.md",
@@ -357,17 +397,13 @@
     "Note Images/Pasted image 20240320144059.png",
     "Note Images/Pasted image 20240320144227.png",
     "Note Images/Pasted image 20240320145252.png",
-    "Note Images/Pasted image 20240320145054.png",
-    "Note Images/Pasted image 20240320145028.png",
     "12. Materials.md",
     "11. Textures.md",
     "09. Geometries.md",
-    "23. Raycaster and Mouse Events.md",
     "24. Custom models with Blender.md",
     "37. Halftone Shading.md",
     "33. Hologram.md",
     "32. Coffee Smoke.md",
-    "26. Realistic render.md",
     "22. Imported models.md",
     "07. Cameras.md",
     "15. Lights.md",
@@ -377,7 +413,6 @@
     "06. Animations.md",
     "04. Local Server.md",
     "25. Environment map.md",
-    "21. Physics.md",
-    "20. Scroll based animation.md"
+    "21. Physics.md"
   ]
 }
