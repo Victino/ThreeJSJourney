@@ -8,236 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3dcfae3fc5ce90f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "23. Raycaster and Mouse Events.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcdb9458647b7adb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "24. Custom models with Blender.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0d0ed43c0077550",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25. Environment map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "401e1171289cf89f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "26. Realistic render.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4fda07a03ff6443",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15. Lights.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0c359dd9c4eb41d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Note Images/Pasted image 20240307171452.png"
-              }
-            }
-          },
-          {
-            "id": "95e822aeb7165c69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07. Cameras.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da067d64ecd08fb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "37. Halftone Shading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12a76d8f4858e36b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12. Materials.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "495b083ebafe1b9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "44. Procedural terrain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6888357af00d72c9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Note Images/Pasted image 20240320144059.png"
-              }
-            }
-          },
-          {
-            "id": "5b67b1e177b847d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "44. Procedural terrain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1010fd7bc4328792",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
-            "id": "67f12fb95de03986",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Note Images/Pasted image 20240325155345.png"
-              }
-            }
-          },
-          {
-            "id": "ca1363e20690ebe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "47. Intro and loading progress.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f524cb0f562fcc95",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
-            "id": "b077651742239081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "53. React and React Three Fiber.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f69a178bb9812397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "55. First R3F application.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fabb6ed7d4df8401",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "23. Raycaster and Mouse Events.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4a6044834ae4b4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "23. Raycaster and Mouse Events.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "35d9d3aaf5435f05",
             "type": "leaf",
             "state": {
@@ -248,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1b0615d3a50b857d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "57. Debug.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.5
   },
   "right": {
     "id": "42b91e689ab4141d",
@@ -316,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "56. Drei.md",
+                "file": "57. Debug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "56. Drei.md",
+                "file": "57. Debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "56. Drei.md"
+                "file": "57. Debug.md"
               }
             }
           }
@@ -377,42 +159,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35d9d3aaf5435f05",
+  "active": "1b0615d3a50b857d",
   "lastOpenFiles": [
+    "Note Images/Pasted image 20240524235526.png",
+    "Note Images/Pasted image 20240525000134.png",
+    "57. Debug.md",
+    "Note Images/Pasted image 20240525171822.png",
+    "Note Images/Pasted image 20240525171534.png",
+    "Note Images/Pasted image 20240525000721.png",
+    "56. Drei.md",
+    "Note Images/Pasted image 20240320144059.png",
+    "44. Procedural terrain.md",
+    "12. Materials.md",
+    "37. Halftone Shading.md",
+    "07. Cameras.md",
+    "Note Images/Pasted image 20240307171452.png",
+    "15. Lights.md",
+    "26. Realistic render.md",
+    "25. Environment map.md",
+    "24. Custom models with Blender.md",
+    "23. Raycaster and Mouse Events.md",
+    "Note Images/Pasted image 20240325155345.png",
+    "47. Intro and loading progress.md",
     "Note Images/Pasted image 20240522235052.png",
     "Note Images/Pasted image 20240426134319.png",
-    "Note Images/Pasted image 20240426134220.png",
-    "Note Images/Pasted image 20240426133149.png",
-    "56. Drei.md",
-    "26. Realistic render.md",
-    "23. Raycaster and Mouse Events.md",
     "55. First R3F application.md",
     "53. React and React Three Fiber.md",
     "38. Earth.md",
-    "44. Procedural terrain.md",
-    "47. Intro and loading progress.md",
-    "Note Images/Pasted image 20240325160441.png",
-    "Note Images/Pasted image 20240325155345.png",
-    "Note Images/Pasted image 20240325154732.png",
-    "Note Images/Pasted image 20240320144059.png",
-    "Note Images/Pasted image 20240320144227.png",
-    "Note Images/Pasted image 20240320145252.png",
-    "12. Materials.md",
     "11. Textures.md",
     "09. Geometries.md",
-    "24. Custom models with Blender.md",
-    "37. Halftone Shading.md",
     "33. Hologram.md",
     "32. Coffee Smoke.md",
     "22. Imported models.md",
-    "07. Cameras.md",
-    "15. Lights.md",
     "19. Galaxy Generator.md",
     "16. Shadows.md",
     "13. 3D text.md",
     "06. Animations.md",
-    "04. Local Server.md",
-    "25. Environment map.md",
-    "21. Physics.md"
+    "04. Local Server.md"
   ]
 }
