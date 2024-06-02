@@ -98,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "57. Debug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "57. Debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "57. Debug.md"
+                "file": "58..md"
               }
             }
           }
@@ -159,11 +157,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b0615d3a50b857d",
+  "active": "cc64fcc720263732",
   "lastOpenFiles": [
+    "58..md",
+    "57. Debug.md",
     "Note Images/Pasted image 20240524235526.png",
     "Note Images/Pasted image 20240525000134.png",
-    "57. Debug.md",
     "Note Images/Pasted image 20240525171822.png",
     "Note Images/Pasted image 20240525171534.png",
     "Note Images/Pasted image 20240525000721.png",
