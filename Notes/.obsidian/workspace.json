@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "51fabe052bd207ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "57. Debug.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b0615d3a50b857d",
+  "active": "51fabe052bd207ef",
   "lastOpenFiles": [
-    "58..md",
+    "63. Post Processing.md",
     "57. Debug.md",
+    "58..md",
     "Note Images/Pasted image 20240524235526.png",
     "Note Images/Pasted image 20240525000134.png",
     "Note Images/Pasted image 20240525171822.png",
@@ -195,7 +208,6 @@
     "19. Galaxy Generator.md",
     "16. Shadows.md",
     "13. 3D text.md",
-    "06. Animations.md",
-    "04. Local Server.md"
+    "06. Animations.md"
   ]
 }
