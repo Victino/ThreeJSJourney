@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6f0dbc12a11272ec",
+        "id": "5392793e04d310f0",
         "type": "tabs",
         "children": [
           {
-            "id": "35d9d3aaf5435f05",
+            "id": "1b06cc335366ca89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "56. Drei.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b0615d3a50b857d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "57. Debug.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51fabe052bd207ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "57. Debug.md",
+                "file": "64. Portfolio.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "57. Debug.md",
+                "file": "64. Portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "57. Debug.md",
+                "file": "64. Portfolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "57. Debug.md"
+                "file": "64. Portfolio.md"
               }
             }
           }
@@ -171,17 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51fabe052bd207ef",
+  "active": "1b06cc335366ca89",
   "lastOpenFiles": [
-    "63. Post Processing.md",
+    "Pasted image 20240615161404.png",
+    "Pasted image 20240615160657.png",
+    "64. Portfolio.md",
+    "56. Drei.md",
     "57. Debug.md",
+    "63. Post Processing.md",
     "58..md",
     "Note Images/Pasted image 20240524235526.png",
     "Note Images/Pasted image 20240525000134.png",
     "Note Images/Pasted image 20240525171822.png",
     "Note Images/Pasted image 20240525171534.png",
     "Note Images/Pasted image 20240525000721.png",
-    "56. Drei.md",
     "Note Images/Pasted image 20240320144059.png",
     "44. Procedural terrain.md",
     "12. Materials.md",
@@ -196,7 +174,6 @@
     "Note Images/Pasted image 20240325155345.png",
     "47. Intro and loading progress.md",
     "Note Images/Pasted image 20240522235052.png",
-    "Note Images/Pasted image 20240426134319.png",
     "55. First R3F application.md",
     "53. React and React Three Fiber.md",
     "38. Earth.md",
@@ -206,8 +183,6 @@
     "32. Coffee Smoke.md",
     "22. Imported models.md",
     "19. Galaxy Generator.md",
-    "16. Shadows.md",
-    "13. 3D text.md",
-    "06. Animations.md"
+    "16. Shadows.md"
   ]
 }
